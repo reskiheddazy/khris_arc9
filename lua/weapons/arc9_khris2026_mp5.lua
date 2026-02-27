@@ -69,7 +69,7 @@ SWEP.Firemodes = {
 
 
 --// 7. RECOIL & SPREAD //----------------------
-SWEP.Recoil = 1.9
+SWEP.Recoil = 1
 SWEP.RecoilUp = 0.5
 SWEP.RecoilSide = 1
 SWEP.RecoilRandomUp = 0
@@ -82,7 +82,7 @@ SWEP.PushBackForce = 0
 SWEP.UseVisualRecoil = true
 SWEP.PhysicalVisualRecoil = true
 SWEP.VisualRecoilUp = 0.01
-SWEP.VisualRecoilSide = 0.05
+SWEP.VisualRecoilSide = 0.03
 SWEP.VisualRecoilRoll = 0.23
 SWEP.VisualRecoilPunch = 1.5
 SWEP.VisualRecoilPunchMultSights = 0.1
@@ -154,8 +154,8 @@ SWEP.HideBones = {"mag2"} -- bones to hide in third person and customize menu. {
 
 
 SWEP.IronSights = {
-    Pos = Vector(-2.81, -2.2, 0.85),
-    Ang = Angle(0, 0.4, 0),
+    Pos = Vector(-3.59, -2.2, 1.5),
+    Ang = Angle(0, 0, 0),
     Magnification = 1.1,
     AssociatedSlot = 0, -- Attachment slot to associate the sights with. Causes RT scopes to render.
     CrosshairInSights = false,
@@ -250,7 +250,7 @@ SWEP.Attachments = {
         PrintName = "Muzzle",
         Category = {"khris_muzzle_pistol", "khris_muzzle_ak"},
         Bone = "weapon",
-        Pos = Vector(-0, -0.8, 6.5),
+        Pos = Vector(-0, -1.55, 10.9),
         Ang = Angle(90, 0, -90),
     },
 }

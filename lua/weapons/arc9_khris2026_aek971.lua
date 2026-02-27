@@ -130,13 +130,13 @@ SWEP.ShootSoundSilenced = {"weapons/aek/firesil1.wav", "weapons/aek/firesil2.wav
 SWEP.MuzzleParticle = "muzzleflash_ak74" -- Used for some muzzle effects.
 
 
-SWEP.ShellModel = "models/shells/shell_9mm.mdl"
+SWEP.ShellModel = "models/shells/shell_556.mdl"
 
 
-SWEP.ShellScale = 1.35
+SWEP.ShellScale = 0.85
 SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
 
-SWEP.ShellPitch = 085 -- for shell sounds
+SWEP.ShellPitch = 185 -- for shell sounds
 SWEP.ShellSounds = ARC9.ShellSoundsTable
 
 
