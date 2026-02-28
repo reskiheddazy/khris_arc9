@@ -248,7 +248,7 @@ SWEP.Animations = {
 SWEP.Attachments = {
     {
         PrintName = "Muzzle",
-        Category = {"khris_muzzle_pistol", "khris_muzzle_ak"},
+        Category = {"khris_muzzle_pistol"},
         Bone = "weapon",
         Pos = Vector(-0, -1.55, 10.9),
         Ang = Angle(90, 0, -90),
